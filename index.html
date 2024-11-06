@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html lang="eng"> 
+<head>
+    <title> Tribute Page </title>
+</head>
+
+<style> 
+
+#main {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnavbar {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnavbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnavbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnavbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnavbar-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnavbar-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+</style>
+
+<body id="main">
+
+    <div class="topnavbar"> 
+    <header> 
+    <div class="topnavbar-centered"> 
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Movies</a>
+    </div>
+    </header>
+    </div>
+    <div id="section1">
+        <h1 id="title"> Tim Burton </h1>
+    </div>
+
+    <div id="img-div"> 
+        
+        <img id="image">
+
+    </div>
+
+    <p id="img-caption"> </p>
+    <!-- Timothy Walter Burton[a] (born August 25, 1958) is an American animator, director, 
+     producer, writer and illustrator. Known for pioneering Goth culture in the American film industry, 
+     Burton is famous for his gothic horror and fantasy films.  -->
+
+    <p id="tribute-info"></p>
+    <!-- He was honored with the Venice International Film Festival's Golden Lion for Lifetime Achievement 
+     in 2007 and was given the Order of the Arts and Letters by Culture Minister of France in 2010.-->
+
+    <a id="tribute-link" href=""> </a>
+    <!-- link here: https://en.wikipedia.org/wiki/Tim_Burton --> 
+        
+</body>
+</html>
